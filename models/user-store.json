@@ -5,7 +5,9 @@
       "lastname": "simpson",
       "email": "homer@simpson.com",
       "password": "secret",
-      "id": "3ad52697-6d98-4d80-8273-084de55a86c0"
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "firstName": "Homer",
+      "lastName": "Simpson"
     },
     {
       "firstname": "marge",
@@ -22,6 +24,27 @@
       "id": "1256b550-2ec9-11ed-960e-716ce3370381",
       "firstName": "Carol",
       "lastName": "Marjara"
+    },
+    {
+      "firstname": "lisa ",
+      "lastname": "simpson",
+      "email": "lisa@simpson.com",
+      "password": "secret",
+      "id": "71931f90-3216-11ed-b973-63b7ac3dc1f7"
+    },
+    {
+      "firstname": "Lisa",
+      "lastname": "Simpson",
+      "email": "lisa@simpson.com",
+      "password": "secret",
+      "id": "a36a4240-3217-11ed-b973-63b7ac3dc1f7"
+    },
+    {
+      "firstname": "C",
+      "lastname": "M",
+      "email": "cm@msn.com",
+      "password": "secret",
+      "id": "cebf17e0-3217-11ed-b973-63b7ac3dc1f7"
     }
   ]
 }

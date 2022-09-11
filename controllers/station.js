@@ -5,7 +5,7 @@ const stationStore = require("../models/station-store");
 const uuid = require('uuid');
 const analytics = require('../utils/analytics');
 const trends = require('../utils/trends');
-const maxmin = require('../utils/trends');
+const maxmin = require('../utils/maxmin');
 
 
 const station = {
