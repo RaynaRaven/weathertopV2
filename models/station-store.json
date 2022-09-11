@@ -1,0 +1,217 @@
+{
+  "stationCollection": [
+    {
+      "id": "s1",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "name": "Tramore",
+      "latitude": 52.162,
+      "longitude": -7.152,
+      "readings": [
+        {
+          "readingid": "e5adcd20-3154-11ed-ab5a-4f56f0a0a51a",
+          "date": "9/10/2022, 10:07:01 PM",
+          "code": "100",
+          "temperature": "20",
+          "windSpeed": "20",
+          "windDirection": "20",
+          "pressure": "20"
+        },
+        {
+          "readingid": "c0f93660-3161-11ed-aa0f-7d0032fb97f6",
+          "date": "9/10/2022, 11:39:03 PM",
+          "code": "100",
+          "temperature": "10",
+          "windSpeed": "10",
+          "windDirection": "10",
+          "pressure": "10"
+        }
+      ],
+      "code": "100",
+      "tempC": "10",
+      "pressure": "10",
+      "weatherCode": "Clear",
+      "weatherIcon": "big circular colored white sun icon",
+      "tempF": 50,
+      "windBft": 2,
+      "windChill": "8.63",
+      "windCompass": "North",
+      "maxTemp": "20",
+      "minTemp": "10",
+      "maxWind": "20",
+      "minWind": "10",
+      "maxPressure": "20",
+      "minPressure": "10",
+      "trendTemp": "null",
+      "trendWind": "null",
+      "trendPressure": "null"
+    },
+    {
+      "id": "s2",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "name": "Dunmore",
+      "latitude": 52.149,
+      "longitude": -6.983,
+      "readings": [
+        {
+          "readingid": "r3",
+          "date": "2021-01-20 10:31:00",
+          "code": "700",
+          "temperature": 8,
+          "windSpeed": 1,
+          "windDirection": 90,
+          "pressure": 1000
+        },
+        {
+          "readingid": "r4",
+          "date": "2021-01-19 09:31:00",
+          "code": "200",
+          "temperature": 0.5,
+          "windSpeed": 2.5,
+          "windDirection": 120,
+          "pressure": 999
+        }
+      ],
+      "code": "200",
+      "tempC": 0.5,
+      "pressure": 999,
+      "weatherCode": "Partial Clouds",
+      "weatherIcon": "big circular colored white cloud sun icon",
+      "tempF": 32.9,
+      "windBft": 1,
+      "windChill": "0.50",
+      "windCompass": "East South East",
+      "maxTemp": 8,
+      "minTemp": 0.5,
+      "maxWind": 2.5,
+      "minWind": 1,
+      "maxPressure": 1000,
+      "minPressure": 999,
+      "trendTemp": "null",
+      "trendWind": "null",
+      "trendPressure": "null"
+    },
+    {
+      "id": "5085dc40-2ebd-11ed-85d7-d772a524acd4",
+      "userid": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "name": "Marge Station",
+      "readings": []
+    },
+    {
+      "id": "1fe638c0-3028-11ed-af35-1596e6098557",
+      "userid": "1256b550-2ec9-11ed-960e-716ce3370381",
+      "name": "Carlow",
+      "latitude": "50",
+      "longitude": "50",
+      "readings": [
+        {
+          "readingid": "fa0f2a40-3161-11ed-aa0f-7d0032fb97f6",
+          "date": "9/10/2022, 11:40:39 PM",
+          "code": "100",
+          "temperature": "10",
+          "windSpeed": "10",
+          "windDirection": "10",
+          "pressure": "10"
+        },
+        {
+          "readingid": "a0d86f70-31f9-11ed-96cb-afb9ddf86231",
+          "date": "9/11/2022, 5:46:13 PM",
+          "code": "200",
+          "temperature": "20",
+          "windSpeed": "20",
+          "windDirection": "20",
+          "pressure": "20"
+        },
+        {
+          "readingid": "a84957b0-31f9-11ed-96cb-afb9ddf86231",
+          "date": "9/11/2022, 5:46:25 PM",
+          "code": "200",
+          "temperature": "30",
+          "windSpeed": "30",
+          "windDirection": "30",
+          "pressure": "30"
+        }
+      ],
+      "code": "200",
+      "tempC": "20",
+      "tempF": 68,
+      "windBft": 4,
+      "pressure": "20",
+      "windChill": "19.99",
+      "windCompass": "North North East",
+      "weatherCode": "Partial Clouds",
+      "weatherIcon": "big circular colored white cloud sun icon",
+      "maxTemp": "20",
+      "minTemp": "10",
+      "maxWind": "20",
+      "minWind": "10",
+      "maxPressure": "20",
+      "minPressure": "10",
+      "trendTemp": "null",
+      "trendWind": "null",
+      "trendPressure": "null"
+    },
+    {
+      "id": "23fef550-3028-11ed-af35-1596e6098557",
+      "userid": "1256b550-2ec9-11ed-960e-716ce3370381",
+      "name": "Stradbally",
+      "latitude": "60",
+      "longitude": "60",
+      "readings": [
+        {
+          "readingid": "b43f5930-3054-11ed-9326-cdfa0ac89cae",
+          "code": "500",
+          "temperature": "25",
+          "windSpeed": "30",
+          "windDirection": "150",
+          "pressure": "999"
+        },
+        {
+          "readingid": "c2d5c8d0-3054-11ed-9326-cdfa0ac89cae",
+          "code": "600",
+          "temperature": "20",
+          "windSpeed": "52",
+          "windDirection": "265",
+          "pressure": "999"
+        }
+      ],
+      "code": "600",
+      "tempC": "20",
+      "tempF": 68,
+      "windBft": 7,
+      "pressure": "999",
+      "windChill": "19.08",
+      "windCompass": "West",
+      "weatherCode": "Rain",
+      "weatherIcon": "big circular colored white cloud rain icon",
+      "maxTemp": "25",
+      "minTemp": "20",
+      "maxWind": "52",
+      "minWind": "30",
+      "maxPressure": "999",
+      "minPressure": "999",
+      "trendTemp": "null",
+      "trendWind": "null",
+      "trendPressure": "null"
+    },
+    {
+      "id": "e8a29d80-31e0-11ed-9f62-a3bdcc7a6ead",
+      "userid": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "name": "Homer",
+      "latitude": "50",
+      "longitude": "50",
+      "readings": [
+        {
+          "readingid": "ef7c75e0-31e0-11ed-9f62-a3bdcc7a6ead",
+          "date": "9/11/2022, 2:49:27 PM",
+          "code": "100",
+          "temperature": "20",
+          "windSpeed": "20",
+          "windDirection": "20",
+          "pressure": "20"
+        }
+      ]
+    }
+  ],
+  "playlistCollection": [],
+  "PlaylistCollection": []
+}

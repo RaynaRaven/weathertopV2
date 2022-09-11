@@ -1,0 +1,44 @@
+<table class="ui fixed table">
+  <thead>
+    <tr>
+      <th style = "text-align: center">Date/Time</th>
+      <th style = "text-align: center">Code</th>
+      <th style = "text-align: center">Temp</th>
+      <th style = "text-align: center">Wind Speed</th>
+      <th style = "text-align: center">Wind Direction</th>
+      <th style = "text-align: center">Pressure</th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each station.readings}}
+      <tr>
+        <td style = "text-align: center">
+          {{date}}
+        </td>
+        <td style = "text-align: center">
+          {{code}}
+        </td>
+        <td style = "text-align: center">
+          {{temperature}}
+        </td>
+        <td style = "text-align: center">
+          {{windSpeed}}
+        </td>
+        <td style = "text-align: center">
+          {{windDirection}}
+        </td>
+        <td style = "text-align: center">
+          {{pressure}}
+        </td>
+        <td style = "text-align: right">
+          <a href="/reading/{{../station.id}}/editreading/{{readingid}}" class="ui icon button" style="background-color: mediumpurple;"><i class="pencil alternate icon"></i></a>
+        </td>
+        <td>
+          <a href="/station/{{../station.id}}/deletereading/{{readingid}}" class="ui icon button" style="background-color: mediumpurple;"><i class="icon trash"></i></a>
+        </td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>

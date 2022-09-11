@@ -1,0 +1,93 @@
+<div class="ui left aligned five column grid" >
+      <div class="column" style="padding-left:0.5rem; padding-right: 0.5rem;">
+        <div class="ui inverted segment" style="background: radial-gradient(at top right, rebeccapurple,cornflowerblue)">
+          <div class="ui container" >
+            <i class="big circular colored white map marked alternate icon" style="float:right;"> </i>
+          </div>
+          <p>
+            <br><span class="ui large white text"><b>{{station.name}}</b></span>
+          </p>
+          <div class="ui container">
+            <br>
+          </div>
+          <p class = "ui medium text" style="line-height:1.25em;">
+            <b>Latitude:</b> {{station.latitude}}<br>
+            <b>Longitude:</b> {{station.longitude}}<br><br><br><br><br>
+          </p>
+        </div>
+      </div>
+      <div class="column" style="padding-left:0.5rem; padding-right: 0.5rem;">
+        <div class="ui inverted segment" style="background: radial-gradient(at top right, rebeccapurple,cornflowerblue)">
+          <div class="ui container">
+            <i class="{{station.weatherIcon}}" style="float:right;"> </i>
+          </div>
+          <p>
+            <br><span class="ui large white text">Weather</span>
+          </p>
+          <div class="ui container">
+            <br>
+          </div>
+          <p class = "ui medium text" style="line-height:1.25em;">
+           {{station.weatherCode}}
+            <br><br><br><br><br><br>
+          </p>
+        </div>
+      </div>
+      <div class="column" style="padding-left:0.5rem; padding-right: 0.5rem;">
+        <div class="ui inverted segment" style="background: radial-gradient(at top right, rebeccapurple,cornflowerblue)">
+          <div class="ui container">
+            <i class="big circular colored white thermometer half icon" style="float:right;"> </i>
+          </div>
+          <p>
+            <br><span class="ui large white text">Temp</span>
+          </p>
+          <div class="ui container">
+            <br><i class="{{station.trendTemp}}" style="float:right;"> </i>
+          </div>
+          <p class = "ui medium text" style="line-height:1.25em;">
+            {{station.tempC}} &degC<br>
+            {{station.tempF}} &degF<br><br><br>
+            <b>Min:</b> {{station.minTemp}} &degC<br>
+            <b>Max:</b> {{station.maxTemp}} &degC<br>
+          </p>
+        </div>
+      </div>
+      <div class="column" style="padding-left:0.5rem; padding-right: 0.5rem;">
+        <div class="ui inverted segment" style="background: radial-gradient(at top right, rebeccapurple,cornflowerblue)">
+          <div class="ui container">
+            <i class="big circular colored white wind icon" style="float:right;"> </i>
+          </div>
+          <p>
+            <br><span class="ui large white text">Wind</span>
+          </p>
+          <div class="ui container">
+            <br><i class="{{station.trendWind}}" style="float:right;"> </i>
+          </div>
+          <p class = "ui medium text" style="line-height:1.25em;">
+            {{station.windBft}} bft<br>
+            {{station.windCompass}}<br>
+            Feels like: {{station.windChill}} &deg<br><br>
+            <b>Min:</b> {{station.minWind}} km/h<br>
+            <b>Max:</b> {{station.maxWind}} km/h
+          </p>
+        </div>
+      </div>
+      <div class="column" style="padding-left:0.5rem; padding-right: 0.5rem;">
+        <div class="ui inverted segment" style="background: radial-gradient(at top right, rebeccapurple,cornflowerblue)">
+          <div class="ui container">
+            <i class="big circular colored white compress arrows alternate icon" style="float:right;"></i>
+          </div>
+          <p>
+            <br><span class="ui large white text">Pressure</span>
+          </p>
+          <div class="ui container">
+            <br><i class="{{station.trendPressure}}" style="float:right;"> </i>
+          </div>
+          <p class = "ui medium text" style="line-height:1.25em;">
+            {{station.pressure}} hpa <br><br><br><br>
+            <b>Min:</b> {{station.minPressure}} hpa<br>
+            <b>Max:</b> {{station.maxPressure}} hpa<br>
+          </p>
+        </div>
+      </div>
+    </div>

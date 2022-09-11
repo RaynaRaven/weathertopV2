@@ -1,0 +1,16 @@
+{{#each stations}}
+  <section class="ui segment">
+    <h2 class="ui header">
+      {{name}}
+    </h2>
+    
+    {{> dashboard-cards}}
+    <a href="/station/{{id}}" class="large circular icon folder open">
+      <i class="icon folder open"></i>
+    </a>
+    <a href="/dashboard/deletestation/{{id}}" class="large circular icon red trash">
+      <i class="icon trash"></i>
+    </a>
+</section>
+
+{{/each}}
