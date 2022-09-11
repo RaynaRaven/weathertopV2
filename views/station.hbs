@@ -1,0 +1,17 @@
+{{> menu}}
+
+<section class="ui center aligned middle aligned segment">
+  <h2 class="ui header">
+    {{station.title}}
+  </h2>
+  {{> weathersummary}}
+  <section class="ui segment" style="background-color: lavender">
+    {{#if station.readings}}
+    {{>listreadings}}
+    {{> addreadings}}
+    {{else}}
+    <h4> You have not entered any readings</h4>
+    {{> addreadings}}
+    {{/if}}
+  </section>
+</section>
